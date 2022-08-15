@@ -47,6 +47,11 @@ p
     margin: 0 0.1em 0 0em;
 }
 
+a
+{
+    color:darksalmon;
+    text-decoration:none;
+}
 /* NIV 1 SECTION 1 OVERVIEW -- fait toute la largeur de la page et contient 4 box en flex horizontal: 
 ID, portrait, labels, lang (mis au dessus car lié à du JS)*/
 
