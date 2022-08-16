@@ -17,14 +17,14 @@
 
 button 
 {
-    border-style:dotted;
+    border-style:solid;
     border-width: 0.1em;
     border-color: darksalmon;
     background-color: #f5f5f5;
     padding:0.5em;
     margin: 0.4em;
     border-radius:2em;
-    font-size: 0.8em;
+    font-size: 1.0em;
     color:darksalmon;
 }
 
@@ -159,6 +159,13 @@ ID, portrait, labels, lang (mis au dessus car lié à du JS)*/
     display:flex;
     flex-direction:column;
     justify-content:center;
+    text-align:center;
+}
+
+#lang i 
+{
+    color:darksalmon;
+    margin-bottom: 0.5em;
 }
 
 /* SECTION 2 ABOUT*/
