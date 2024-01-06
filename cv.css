@@ -1,3 +1,28 @@
+/*propriétés du panneau publi */
+
+.hidden {
+    display: none;
+}
+
+#textPanel {
+    position: fixed;
+    top: 3%;
+    left: 5%;
+    width: 75%;
+    height: 88%;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 2em 2em 2em 4em;
+    overflow: auto;
+}
+
+#closePanelBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+}
+
 /* TRADUCTION */
 
 .FR
@@ -561,6 +586,4 @@ progress::-moz-progress-bar
     border-radius: 2em;
     padding: 0.2em 0.5em 0.2em 0.5em;
     margin: 0.5em
-}
-
 }
